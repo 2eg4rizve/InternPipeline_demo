@@ -8,6 +8,7 @@ namespace InternPipeline.Controllers
     [ApiController]
     public class BlogController : ControllerBase
     {
+        //wow
         private readonly IBlogManager _blogManager;
 
         public BlogController(IBlogManager blogManager)
